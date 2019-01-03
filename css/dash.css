@@ -1,0 +1,106 @@
+body {
+    background-color: #2a2b3d;
+    font-family: 'Open Sans';
+}
+
+.header {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 25px;
+}
+
+.dashNav {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px #6f6486;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.cards {
+    transition: box-shadow .3s;
+    background-color: #313348;
+    padding: 40px;
+    border-radius: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+.cardsHeader {
+    margin-bottom: 10px;
+    background-color: #6f6486;
+}
+.cardsHeader2 {
+    margin-bottom: 10px;
+    background-color: #FE7058;
+}
+.cardsHeader3 {
+    margin-bottom: 10px;
+    background-color: #FFD05C;
+}
+
+.cardsFirst {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.reading:hover, .cardsFirst:hover {
+    box-shadow: 5px 0px 0px 0px #6f6486;
+}
+
+.iot:hover {
+    box-shadow: 5px 0px 0px 0px #FE7058;
+}
+
+.cardsHeader:hover, .cardsHeader2:hover {
+    box-shadow: 5px 0px 0px 0px #FFFFFF;
+}
+
+.cardText {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    left: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.settingsButton {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+.crumbsNav{
+    margin-top: 100px;
+    border-radius: 0px;
+    font-family: 'Open Sans';
+    background-color: none;
+}
+.breadcrumb{
+    border-radius: 0px;
+    font-family: 'Open Sans';
+    background-color: none;
+    font-size: 25px;
+
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "|";
+    color: #000000;
+    font-size: 25px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}

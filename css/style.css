@@ -1,0 +1,15 @@
+body{
+    overflow: hidden;
+    user-select: none;
+-moz-user-select: none;
+}
+.introLogo{
+    height: 30%;
+}
+.test{
+    margin-top:15%;
+}
+.elementToFadeInAndOut {
+    -webkit-animation: fadeIn 1s linear forwards;
+    animation: fadeIn 1s linear forwards;
+}
