@@ -13,3 +13,7 @@ body{
     -webkit-animation: fadeIn 1s linear forwards;
     animation: fadeIn 1s linear forwards;
 }
+.mainButton{
+    border-radius: 0px;
+    font-family: 'Open Sans';
+}
